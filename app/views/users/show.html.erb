@@ -8,8 +8,7 @@
 <p>
   <strong>post:</strong>
   
-  <%posts=@user.microposts %>
-<%=posts.first%>
+  <%= @user.microposts.first.content %>
 </p>
 
 
